@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <title>Stok Barang Jadi - Konveksi</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h2>📦 Stok Barang Jadi - Konveksi</h2>
+    <div class="form">
+      <input type="text" id="name" placeholder="Nama Barang" />
+      <input type="text" id="ukuran" placeholder="Ukuran (S/M/L/XL)" />
+      <input type="text" id="warna" placeholder="Warna" />
+      <input type="number" id="stok" placeholder="Stok" />
+      <input type="number" id="harga" placeholder="Harga Jual" />
+      <button onclick="addBarang()">Tambah Barang</button>
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <th>Nama</th>
+          <th>Ukuran</th>
+          <th>Warna</th>
+          <th>Stok</th>
+          <th>Harga Jual</th>
+          <th>Total Nilai</th>
+          <th>Aksi</th>
+        </tr>
+      </thead>
+      <tbody id="tabelBarang"></tbody>
+    </table>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
